@@ -1,0 +1,16 @@
+[
+	{"name":"Activity-Recognition","url":"https://github.com/ed-word/Activity-Recognition","description":"Multilevel model for activity recognition in basketball using Optical Flow, LSTM and CNN","languages":["Python","Shell"],"stars":2,"forks":1}, 
+	{"name":"Linkedin-Scraper","url":"https://github.com/ed-word/Linkedin-Scraper","description":"Selenium based LinkedIn profile data scraper","languages":["Python"],"stars":2,"forks":0}, 
+	{"name":"know-it-all","url":"https://github.com/ed-word/know-it-all","description":"An application that detects jargon from documents and displays its meaning","languages":["CSS","HTML","JavaScript","Python"],"stars":0,"forks":0}, 
+	{"name":"Analysis-Of-Algorithms","url":"https://github.com/ed-word/Analysis-Of-Algorithms","description":"C programs for various algorithms in Analysis of Algorithms course (MU SEM IV)","languages":["C"],"stars":0,"forks":0}, 
+	{"name":"Lung-Cancer-Preprocessing","url":"https://github.com/ed-word/Lung-Cancer-Preprocessing","description":"Understanding Lung CT scans and processing them before applying Machine learning algorithms.","languages":["Python"],"stars":1,"forks":1}, 
+	{"name":"MoviesEra","url":"https://github.com/ed-word/MoviesEra","description":"Movie and TV show Database with recommendations for each movie/show.","languages":["CSS","Python","HTML","JavaScript"],"stars":1,"forks":1}, 
+	{"name":"OneWorld","url":"https://github.com/ed-word/OneWorld","description":"Web application for organisations to help refugees. Features: Heat maps, conflict status maps, face recognition, family matching","languages":["JavaScript","CSS","HTML","Python","PHP","Go","CoffeeScript","Makefile"],"stars":0,"forks":2}, 
+	{"name":"ndvi","url":"https://github.com/ed-word/ndvi","description":"Web application that uses farm location coordinates to predict NDVI values for the next month using neural networks.","languages":["JavaScript","HTML","CSS","Python"],"stars":0,"forks":1}, 
+	{"name":"NSE-HACKATHON","url":"https://github.com/ed-word/NSE-HACKATHON","description":"News driven trading algorithm optimizer.","languages":["Jupyter Notebook","Python"],"stars":0,"forks":0}, 
+	{"name":"Pokemon-Stats_Comparison-Visualization","url":"https://github.com/ed-word/Pokemon-Stats_Comparison-Visualization","description":"Visualising Pokemon dataset","languages":["Jupyter Notebook","Python"],"stars":1,"forks":1}, 
+	{"name":"PAP-Smear-API","url":"https://github.com/ed-word/PAP-Smear-API","description":"Classifying PAP Smear categories based on patient demographics","languages":["Python","HTML","CSS"],"stars":1,"forks":1}, 
+	{"name":"Problem-Solutions","url":"https://github.com/ed-word/Problem-Solutions","description":"Solutions for some CP problems","languages":["C++","C#","Matlab"],"stars":1,"forks":0}, 
+	{"name":"OpenCV","url":"https://github.com/ed-word/OpenCV","description":"OpenCV Walkthrough","languages":["Python"],"stars":0,"forks":0}, 
+	{"name":"SmartLanes","url":"https://github.com/ed-word/SmartLanes","description":"SmartLane is a Bluetooth beacon based solution for efficiently doing transactions and analysis of vehicle traffic.","languages":["CSS","HTML","JavaScript","Java","Python"],"stars":0,"forks":0}
+]

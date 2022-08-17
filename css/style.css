@@ -1,0 +1,324 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster");
+#app {
+  background-color: #000;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.lang {
+  font-size: 0.5vmax;
+  color: #fff;
+}
+.level0 .top-header .lang {
+  font-size: 1.2vmax;
+}
+
+#carousel {
+  position: absolute;
+  height: 95%;
+  width: 90%;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.arrow {
+  position: fixed;  
+  box-sizing: border-box;
+  height: 3vw;
+  width: 3vw;
+  top: 75%;
+  border-style: solid;
+  border-color: white;
+  border-width: 0px 2px 2px 0px;
+  transition: border-width 150ms ease-in-out;
+  cursor: pointer;
+}
+
+.arrow:hover {
+  border-bottom-width: 4px;
+  border-right-width: 4px;
+}
+
+.arrow-right {
+  transform: rotate(135deg);
+  right: 92%;
+}
+.arrow-left {
+  transform: rotate(315deg);
+  left: 90%;
+}
+
+
+
+.top-header {
+  position: relative;
+  float: right;
+  font-size: 1.2vmax;
+  //border: solid 1px #000;
+}
+#carousel ul, #carousel li {
+//padding: 0;
+//color: black;
+float: left;
+margin: 0;
+margin-top: 0.2em;
+margin-left: 1em;
+padding-right: 4px;
+}
+hr {
+    position: absolute;
+    top: 4%;
+    width: 100%;
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.title {
+  position: absolute;
+  top: 15%;
+  float: left;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.5vmax;
+  color: #fff;
+  width: 95%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  //border: solid 1px #000;
+}
+.level0 .title {
+  font-size: 2vmax;
+  color: #000;
+}
+
+.description {
+    white-space: pre-wrap;
+    position: absolute;
+    width: 95%;
+    top: 30%;
+    float: left;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1vmax;
+    color: #fff;  
+    //border: solid 1px #000;
+}
+.level0 .description {
+  font-size: 1.2vmax;
+}
+
+
+.star {
+position: absolute;
+top: 80%;
+left: 5%;
+}
+.fork {
+position: absolute;
+top: 80%;
+right: 5%;
+}
+.level0 .star {
+position: absolute;
+top: 80%;
+left: 10%;
+}
+.level0 .fork {
+position: absolute;
+top: 80%;
+right: 10%;
+}
+
+a {
+  color: #fff;
+}
+.level0 a {
+  color: #000;
+}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+  color: #fff;
+}
+.level0 a:visited {
+  text-decoration: none;
+  color: #000; 
+}
+
+.level0 .top-header,
+.level0 .title,
+.level0 .description {
+  color: #000;
+}
+
+
+
+.item {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  transition: height 1s, width 1s, left 1s, margin-top 1s, line-height 1s, background-color 1s;
+
+  border-radius: 3%;
+  //border: solid 1px #000;
+}
+
+.level-2 {
+  height: 45%;
+  width: 17.5%;
+  top: 27.5%;
+  /*topis 50 - (45/2)*/  
+  right: 1.5%;
+  /**/
+  //margin-top: 3.75%;
+  //line-height: 150px;
+  background-color: #228291;
+  //display: none;
+  background: url('../images/github-neg.png') no-repeat left top, linear-gradient(to bottom, #2E353C 75%, white 25%);
+}
+
+.level-1 {
+  height: 45%;
+  width: 17.5%;
+  top: 27.5%;
+  /*topis 50 - (45/2)*/  
+  right: 19.5%;
+  /**/
+  //margin-top: 2.5%;
+  //line-height: 180px;
+  background-color: #6796E5;
+  background: url('../images/github-neg.png') no-repeat left top, linear-gradient(to bottom, #2E353C 75%, white 25%);
+}
+
+.level0 {  
+  height: 60%;
+  width: 25%;
+  top: 20%;
+  /*topis 50 - (60/2)*/  
+  left: 37.5%;
+  /*leftis 50 - (25/2)*/
+  //line-height: 200px;
+  //background-color: #4EC9E1;
+  background: url('../images/github.png') no-repeat left top, linear-gradient(to bottom, white 75%, #2E353C 25%);
+}
+
+.level1 {
+  height: 45%;
+  width: 17.5%;
+  top: 27.5%;
+  /*topis 50 - (45/2)*/  
+  left: 19.5%;
+  /**/
+  //margin-top: 2.5%;
+  //line-height: 180px;
+  background-color: #6796E5;
+  background: url('../images/github-neg.png') no-repeat left top, linear-gradient(to bottom, #2E353C 75%, white 25%);
+}
+
+.level2 {
+  height: 45%;
+  width: 17.5%;
+  top: 27.5%;
+  /*topis 50 - (45/2)*/  
+  left: 1.5%;
+  /**/
+  //margin-top: 3.75%;
+  //line-height: 150px;
+  background-color: #228291;
+  //display: none;
+  background: url('../images/github-neg.png') no-repeat left top, linear-gradient(to bottom, #2E353C 75%, white 25%);
+}
+
+.left-enter {
+  opacity: 0;
+  left: -10%;
+  top: 32%;  
+  height: 36%;
+  width: 15%;
+  //line-height: 120px;
+}
+
+/*Level2*/
+.left-enter.left-enter-active {
+  opacity: 1;
+  left: 1.5%;
+  top: 27.5%;
+  height: 45%;
+  width: 17.5%;
+  //line-height: 150px;
+  transition: left 1s, opacity 1s, height 1s, width 1s, margin-top 1s, line-height 1s, background 1s;
+}
+
+/*Level-2*/
+.left-leave {
+  opacity: 1;
+  right: 1.5%;
+  top: 27.5%;
+  height: 45%;
+  width: 17.5%;
+  //line-height: 150px;
+}
+
+/*Left enter ka other extreme*/
+.left-leave.left-leave-active {
+  opacity: 0;
+  right: -5%;
+  top: 32%;  
+  height: 36%;
+  width: 15%;
+  //line-height: 120px;
+  transition: right 1s, opacity 1s, height 1s, width 1s, margin-top 1s, line-height 1s, background 1s;
+}
+
+.right-enter {
+  opacity: 0;
+  left: 81.25%;
+  top: 32%;  
+  height: 36%;
+  width: 15%;
+  //line-height: 120px;
+}
+
+.right-enter.right-enter-active {
+  opacity: 1;
+  right: 1.5%;
+  top: 27.5%;
+  height: 45%;
+  width: 17.5%;
+  //line-height: 150px;
+  transition: right 1s, opacity 1s, height 1s, width 1s, margin-top 1s, line-height 1s, background 1s;
+}
+
+.right-leave {
+  opacity: 1;
+  left: 1.5%;
+  top: 27.5%;
+  height: 45%;
+  width: 17.5%;
+  //line-height: 150px;
+}
+
+.right-leave.right-leave-active {
+  opacity: 0;
+  left: -10%;
+  top: 32%;  
+  height: 36%;
+  width: 15%;
+  //line-height: 120px;
+  transition: left 1s, opacity 1s, height 1s, width 1s, margin-top 1s, line-height 1s, background-color 1s;
+}
+
+.noselect {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
